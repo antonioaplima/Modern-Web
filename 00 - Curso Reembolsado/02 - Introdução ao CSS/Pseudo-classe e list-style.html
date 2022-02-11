@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Pseudo-classes e list-styles - CSS</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Antônio Augusto Pereira Lima">
+        <meta name="description" content="Pseudo-classes e list-styles - CSS">
+        <meta name="keywords" content="html5, frontend, udemy, Antônio, CSS">
+        <!--Isso é um comentário-->
+
+        <style>
+            /*Podemos editar como os links aparecem: link, visited, hover, active*/
+            a:link{
+                color: green;
+                background-color: yellow;
+            }
+            a:visited{
+                color: white;
+                background-color: black;
+            }
+            a:hover{
+                color: black;
+                background-color: gray;
+            }
+            a:active{
+                color: yellow;
+                background-color: red;
+            }
+
+            /*Podemos editar como as listas aparecem*/
+            ul li{
+                list-style-type: circle;
+                list-style-position: outside;
+                list-style-image: none;
+            }
+            ol li{
+                list-style-type: upper-roman;
+                list-style-position: inside;
+                list-style-image: none;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Primeiro link: <a href="Adicionando Classes.html">link</a></p>
+        <p>Primeiro link: <a href="Box model.html">link</a></p>
+        <p>Primeiro link: <a href="Primeiras regras de CSS.html">link</a></p>
+        
+        <ul>
+            <li>ITEM</li>
+            <li>ITEM</li>
+            <li>ITEM</li>
+            <li>ITEM</li>
+            <li>ITEM</li>
+            <li>ITEM</li>
+            <li>ITEM</li>
+        </ul>
+        <ol>
+            <li>ITEM</li>
+            <li>ITEM</li>
+            <li>ITEM</li>
+            <li>ITEM</li>
+            <li>ITEM</li>
+            <li>ITEM</li>
+            <li>ITEM</li>
+        </ol>
+    </body>
+</html>

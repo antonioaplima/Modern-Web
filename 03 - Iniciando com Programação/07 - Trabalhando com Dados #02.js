@@ -9,4 +9,4 @@ console.log(preco *(1-desconto));
 let Produto = "Caderno ";
 let Categoria = "Papelaria ";
 
-console.log(Categoria + Produto + preco + " " + desconto);
+console.log(Categoria + Produto + preco + " " + desconto + " " + preco *(1-desconto));

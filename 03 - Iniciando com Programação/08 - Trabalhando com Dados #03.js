@@ -1,12 +1,11 @@
-let preco = 10;
-let desconto = 0.4;
+let idade = 22;
+console.log(idade);
+console.log(typeof idade);
 
-console.log(preco *(1-desconto));
+let salario = 1212.36;
+console.log(salario);
+console.log(typeof salario);
 
-preco = 1000;
-console.log(preco *(1-desconto));
-
-let Produto = "Caderno ";
-let Categoria = "Papelaria ";
-
-console.log(Categoria + Produto + preco + " " + desconto + " " + preco *(1-desconto));
+let estaChovendo = true;
+console.log(estaChovendo);
+console.log(typeof estaChovendo);

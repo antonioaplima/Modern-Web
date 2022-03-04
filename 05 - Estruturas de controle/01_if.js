@@ -6,7 +6,7 @@ function soBoaNoticia(nota){
 }
 soBoaNoticia(7.1);
 
-//IF - ELSE:
+//IF:
 function teste1(num){
     //if pode ignorar as chaves se tiver apenas uma sentença
     if(num >= 7)

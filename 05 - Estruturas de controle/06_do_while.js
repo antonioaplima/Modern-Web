@@ -12,3 +12,4 @@ do{
 }while(opcao != -1);
 
 console.log("End");
+console.log("Final");
